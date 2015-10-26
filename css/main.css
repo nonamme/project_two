@@ -1,0 +1,127 @@
+body {
+	margin: 0px 0;
+	padding: 0;
+}
+#top {
+	background-image: url("../files/flower.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 593px;
+}
+#top > * {
+	color: #FFF;
+}
+#top > h1 {
+	position: absolute;
+	top: 400px;
+	left: 40%;
+}
+
+#top > p {
+	position: absolute;
+	top: 450px;
+	left: 42%;
+}
+#menu {
+	background: rgba(255, 255, 255, 0.6);
+}
+
+#menu > ul {
+	float: right;
+	width: 700px;
+	position: relative;
+	top: 20px;
+}
+
+#menu > img {
+	margin-top: 5px;
+	margin-left: 50px;
+	margin-bottom: 5px;
+
+}
+
+#four-container {
+	margin: 10px auto;
+}
+
+#four-container > div {
+	width: 179px;
+	height: 179px;
+	margin: 0 50px;
+}
+
+#m-top > p {
+	width: 70%;
+	margin: 0 auto;
+}
+
+#m-bottom {
+	height: 100%;
+}
+
+#m-bottom > div {	
+	width: 70%;
+	position: relative;
+	top: 10px;
+	left: 20px;
+	margin: 0 auto;
+	clear: both;
+}
+
+#m-bottom > div > img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+#m-bottom > div > p,
+#m-bottom > div > h3 {
+	width: 100%;
+}
+
+
+
+#tickets {
+	background-image: url('../files/b_circle.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#camera {
+	background-image: url('../files/g_circle.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#beer {
+	background-image: url('../files/r_circle.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+#devices {
+	background-image: url('../files/o_circle.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#foot {
+	background: #2c242c;
+	
+	position: relative;
+	top: 20px;
+}
+
+#foot > #foot-container > #list,
+#foot > #foot-container > #links > p {
+	color: #696b6a;
+}
+#foot > #foot-container > #links > img {
+	margin: 0 5px;
+}
+
+
+#foot-container {
+	margin: 10px 350px;
+	width: 80%;
+	height: 100%;
+}
