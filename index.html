@@ -9,19 +9,37 @@
 	<link rel='stylesheet' type='text/css' href='./css/main.css'/>
 </head>
 <body>
-<div id="container col-xs-12 col-sm-12 col-md-12">
+<div id="container col-lg-12">
 	<div id="top">
-		<div id="menu"  class="container col-xs-12 col-sm-12 col-md-12">
-		<img src="./files/logo.png" alt="Logo">
-			<ul class="nav nav-justified">
-				<li><a href="#" class="btn btn-sm">Home</a></li>
-				<li><a href="#" class="btn btn-sm">About Us</a></li>
-				<li><a href="#" class="btn btn-sm">Services</a></li>
-				<li><a href="#" class="btn btn-sm">Contact</a></li>
-				<li class="btn-group" role="group">
-					<button type="button" class="btn btn-danger"><img src="files/dude.png">  Login</button>
-				</li>
-			</ul>
+		
+		<div id="menu"  class="col-lg-12">
+		
+			<div id='logo-wrapper' class='col-lg-3'>
+				<img src="./files/logo.png" alt="Logo">
+			</div>
+			<div class="navbar-header">
+				<div id='toggle-btn-wrapper' class='col-sm-1'>
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-toggle" aria-expanded="false">
+				<span class='icon-bar'></span>
+				<span class='icon-bar'></span>
+				<span class='icon-bar'></span>
+			</button>
+				</div>
+	<div id='login-btn-wrapper' class='col-sm-1 col-lg-1'>
+				<button id="login-btn" type="button" class="btn btn-danger" ><img src="files/dude.png">  Login</button>
+			</div>
+			</div>
+			<div id="menu-toggle" class='col-lg-8'>
+				<div class='navbar-wrapper'>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#" class="btn btn-sm">Home</a></li>
+					<li><a href="#" class="btn btn-sm">About Us</a></li>
+					<li><a href="#" class="btn btn-sm">Services</a></li>
+					<li><a href="#" class="btn btn-sm">Contact</a></li>
+				</ul>
+				</div>				
+			</div>
+			
 		</div>
 		<h1 class="text-center">WELCOME TO PINK</h1>
 		<p class="text-center">A multi purpose theme from cssauthor.com</p>
@@ -34,11 +52,11 @@
 			<h3 class="text-center">Lorem Ipsum is simply dummy</h3>
 			<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non magna aliquam, pharetra nunc at, lacinia magna. Donec cursus ut libero non eleifend. Fusce porta imperdiet lobortis.</p>
 
-			<div id="four-container">
-				<div id="tickets" class="col-xs-12 col-sm-12 col-md-3"></div>
-				<div id="camera" class="col-xs-12 col-sm-12 col-md-3"></div>
-				<div id="beer" class="col-xs-12 col-sm-12 col-md-3"></div>
-				<div id="devices" class="col-xs-12 col-sm-12 col-md-3"></div>
+			<div id="four-container" class="col-lg-12">
+				<div id="tickets" class="col-lg-3"></div>
+				<div id="camera" class="col-lg-3"></div>
+				<div id="beer" class="col-lg-3"></div>
+				<div id="devices" class="col-lg-3"></div>
 			</div>
 		</div>
 		<div id="m-bottom">
@@ -59,9 +77,9 @@
 			</div>
 		</div>
 	</div>
-	<div id="foot" class="container col-xs-12 col-sm-12 col-md-12">
-		<div id="foot-container" class="row">
-			<div id="list" class="col-xs-12 col-sm-12 col-md-2">
+	<div id="foot" class="container col-lg-12">
+		<div id="foot-container">
+			<div id="list" class="col-lg-2 text-center">
 			<p>Sub Menu</p>
 				<ul class="list-unstyled">
 					<li>Android</li>
@@ -74,7 +92,7 @@
 				</ul>
 			</div>
 
-			<div id="list" class="col-xs-12 col-sm-12 col-md-2">
+			<div id="list" class="col-lg-2 text-center">
 			<p>Sub Menu</p>
 				<ul class="list-unstyled">
 					<li>Freebies</li>
@@ -87,7 +105,7 @@
 				</ul>
 			</div>
 
-			<div id="list" class="col-xs-12 col-sm-12 col-md-2">
+			<div id="list" class="col-lg-2 text-center">
 			<p>Sub Menu</p>
 				<ul class="list-unstyled">
 					<li>Drupal</li>
@@ -100,7 +118,7 @@
 				</ul>
 			</div>
 
-			<div id="list" class="col-xs-12 col-sm-12 col-md-2">
+			<div id="list" class="col-lg-2 text-center">
 			<p>Sub Menu</p>
 				<ul class="list-unstyled">
 					<li>JQuery</li>
@@ -112,7 +130,7 @@
 					<li>Templates</li>
 				</ul>
 			</div>
-			<div id="links" class="col-xs-12 col-sm-12 col-md">
+			<div id="links" class="col-lg-4 text-center">
 				<img src="./files/face.png" alt="">
 				<img src="./files/twitter.png" alt="">
 				<img src="./files/dribble.png" alt="">

@@ -27,10 +27,7 @@ body {
 }
 
 #menu > ul {
-	float: right;
 	width: 700px;
-	position: relative;
-	top: 20px;
 }
 
 #menu > img {
@@ -78,7 +75,15 @@ body {
 	width: 100%;
 }
 
-
+#tickets,
+#camera,
+#beer,
+#devices {
+	margin-top: 0;
+	margin-bottom: 10px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
 
 #tickets {
 	background-image: url('../files/b_circle.png');
@@ -121,7 +126,11 @@ body {
 
 
 #foot-container {
-	margin: 10px 350px;
+	margin: 10px auto;
 	width: 80%;
 	height: 100%;
+}
+
+#login-btn-wrapper {
+	padding: 10px 10px;
 }
