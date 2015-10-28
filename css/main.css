@@ -5,24 +5,12 @@ body {
 #top {
 	background-image: url("../files/flower.png");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	height: 593px;
-}
-#top > * {
-	color: #FFF;
-}
-#top > h1 {
-	position: absolute;
-	top: 400px;
-	left: 40%;
+	color: #fff;
 }
 
-#top > p {
-	position: absolute;
-	top: 450px;
-	left: 42%;
-}
-#menu {
+nav > div {
 	background: rgba(255, 255, 255, 0.6);
 }
 
@@ -131,6 +119,15 @@ body {
 	height: 100%;
 }
 
-#login-btn-wrapper {
+.login-wrapper {
 	padding: 10px 10px;
+}
+
+#menu {
+	padding: 0;
+	marign: 0;
+}
+
+#menu ul {
+	width: 30em;
 }
