@@ -8,14 +8,12 @@ body {
 	background-size: cover;
 	height: 593px;
 	color: #fff;
+	position: relative;
 }
 
-nav > div {
-	background: rgba(255, 255, 255, 0.6);
-}
-
-#menu > ul {
-	width: 700px;
+#welcome-text {
+	position: absolute;
+	bottom: 20px;
 }
 
 #menu > img {
@@ -23,16 +21,6 @@ nav > div {
 	margin-left: 50px;
 	margin-bottom: 5px;
 
-}
-
-#four-container {
-	margin: 10px auto;
-}
-
-#four-container > div {
-	width: 179px;
-	height: 179px;
-	margin: 0 50px;
 }
 
 #m-top > p {
@@ -63,43 +51,9 @@ nav > div {
 	width: 100%;
 }
 
-#tickets,
-#camera,
-#beer,
-#devices {
-	margin-top: 0;
-	margin-bottom: 10px !important;
-	margin-left: auto !important;
-	margin-right: auto !important;
-}
-
-#tickets {
-	background-image: url('../files/b_circle.png');
-	background-repeat: no-repeat;
-	background-position: center;
-}
-#camera {
-	background-image: url('../files/g_circle.png');
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-#beer {
-	background-image: url('../files/r_circle.png');
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-
-#devices {
-	background-image: url('../files/o_circle.png');
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
 #foot {
 	background: #2c242c;
-	
+	padding: 20px 0 0;	
 	position: relative;
 	top: 20px;
 }
@@ -112,22 +66,6 @@ nav > div {
 	margin: 0 5px;
 }
 
-
-#foot-container {
-	margin: 10px auto;
-	width: 80%;
-	height: 100%;
-}
-
 .login-wrapper {
 	padding: 10px 10px;
-}
-
-#menu {
-	padding: 0;
-	marign: 0;
-}
-
-#menu ul {
-	width: 30em;
 }
